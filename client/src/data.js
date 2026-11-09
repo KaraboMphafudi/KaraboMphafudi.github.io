@@ -1,0 +1,104 @@
+// All website content lives here. Edit this file, not the components.
+export const profile = {
+  name: "Karabo Mphafudi",
+  fullName: "Ignitious Karabo Mphafudi",
+  role: "Junior Full-Stack JavaScript (MERN) Developer",
+  tagline:
+    "I build clear, working web applications for small businesses, startups and individuals. Based in Johannesburg, South Africa.",
+  email: "Karabo.ekfm@gmail.com",
+  phone: "+27 63 125 5829",
+  linkedin: "https://www.linkedin.com/in/karabomphafudi",
+  github: "https://github.com/KaraboMphafudi",
+  about: [
+    "Field of study: Full-Stack Software Development (Umuzi bootcamp certificate, completed September 2026). I am now on the Umuzi Learner Experience Accelerator, October 2026 to March 2027, where I am also completing an SAP Technology Consultant programme.",
+    "Institution: Umuzi.",
+    "Before tech I worked as a radio sound technician and music producer, and I hold an N6 qualification in Studio Work, which covered sound engineering, music production and music business.",
+  ],
+  strengths: [
+    "Building complete web apps with React, Node.js, Express and MongoDB",
+    "Secure sign-in with JWT and bcrypt password hashing",
+    "Deploying with Docker, Kubernetes and GitHub Actions",
+    "Software testing with Cucumber and Java in Eclipse",
+    "Learning fast, taking feedback well and asking clear questions",
+  ],
+  services: [
+    { title: "Fixes and small features", text: "Bug fixes and improvements to an existing website or app." },
+    { title: "Responsive React pages", text: "Landing pages and business sites that work on phones and computers." },
+    { title: "Small MERN apps", text: "Web apps with user login and a MongoDB database." },
+    { title: "Deployment setup", text: "Docker containers and automatic deployment with GitHub Actions." },
+  ],
+  skills: ["React.js", "JavaScript (ES6+)", "HTML and CSS", "Node.js", "Express", "MongoDB", "REST APIs", "JWT authentication", "Cucumber testing"],
+  tools: ["Git and GitHub", "Docker", "Kubernetes", "GitHub Actions (CI/CD)", "IBM Cloud Code Engine", "Agile practices", "Java software testing in Eclipse"],
+  wanted:
+    "I help small businesses, startups and individuals who need a simple, reliable website or web app. I want full-stack projects where I can learn from real clients.",
+  availability: [
+    ["Days and hours", "Weekdays, about 20 hours per week, planned around my training"],
+    ["Term time, holidays, weekends", "Available during term and holidays. Weekends by arrangement"],
+    ["Start date", "I can start now"],
+  ],
+  location: [
+    ["Based in", "Johannesburg, Gauteng, South Africa"],
+    ["Preferred", "Remote or hybrid"],
+    ["On-site", "Possible in Gauteng by arrangement"],
+  ],
+  why: [
+    ["Attitude and work ethic", "I take ownership. I built and deployed GiftLink end to end and I keep learning new tools."],
+    ["Reliability", "I send regular progress updates and tell you early if something could affect a deadline."],
+    ["Easy to work with", "I ask clear questions, accept feedback, use Git properly and document my work, including my API endpoints."],
+    ["Honest about my level", "I am early in my career. I tell you what I can do well and what I would need to learn."],
+  ],
+  ratesIntro:
+    "I work hourly or per project. My starting rate is $15 per hour (about R250), and I price clearly scoped work as a fixed project. Rand quotes are available for South African clients.",
+  ratesNote: "Prices are estimates and depend on the project.",
+  rates: [
+    ["Ongoing or open-ended work", "Hourly", "$15 per hour"],
+    ["Small bug fix or form fix", "2 to 3 hours", "$30 to $45"],
+    ["Responsive React landing page", "8 to 12 hours", "$120 to $180"],
+    ["Deployment with Docker and CI/CD", "5 to 8 hours", "$75 to $120"],
+    ["Small MERN app with login and database", "30 to 40 hours", "$450 to $600"],
+  ],
+  projects: [
+    {
+      name: "GiftLink",
+      text: "A full-stack marketplace where people give away household items to people who want to reuse them. Includes registration and login, filterable search, item pages with comments, and a deployed microservices setup.",
+      stack: ["React", "Node.js", "Express", "MongoDB", "JWT", "Docker", "Kubernetes", "GitHub Actions"],
+      link: "https://github.com/KaraboMphafudi", // TODO: change to the GiftLink repo link
+      linkText: "View on GitHub",
+    },
+    {
+      name: "Springs Sunrise Primary",
+      text: "A demo school website with About, Academics, Gallery, News, Staff directory and a Contact page with a map and enquiry form. It is a sample that shows what I can build for schools, and the details on it are sample content.",
+      stack: ["HTML", "CSS", "JavaScript"],
+      link: "https://springs-sunrise-primary.netlify.app",
+      linkText: "View live demo",
+    },
+    {
+      name: "E-Plant Shopping",
+      text: "An online plant shop where plants are grouped by category, such as air purifying, aromatic, insect repellent, medicinal and low maintenance.",
+      stack: ["React", "Vite"],
+      link: "https://karabomphafudi.github.io/e-plantShopping/",
+      linkText: "View live site",
+    },
+    {
+      name: "Conference Event Planner",
+      text: "A web app for planning a conference event, built with React.",
+      stack: ["React", "Vite"],
+      link: "https://karabomphafudi.github.io/conference_event_planner/",
+      linkText: "View live site",
+    },
+    {
+      name: "Travel Recommendation",
+      text: "A travel website where visitors search for beaches, temples and countries, with About and Contact pages.",
+      stack: ["HTML", "CSS", "JavaScript"],
+      link: "https://karabomphafudi.github.io/travel_recommendation/",
+      linkText: "View live site",
+    },
+    {
+      name: "Health Census",
+      text: "A healthcare data app where patient details (name, gender, age and condition) are added and summarised in an analysis report.",
+      stack: ["HTML", "CSS", "JavaScript"],
+      link: "https://karabomphafudi.github.io/heath_census/",
+      linkText: "View live site",
+    },
+  ],
+};
