@@ -59,10 +59,17 @@ export const profile = {
   ],
   projects: [
     {
+      name: "VoteStack SA",
+      text: "A civic-tech platform for South Africans to argue constitutional reform, fund political parties and civil society, and hold their ward councillor accountable. The frontend is built and live; the backend is still in planning.",
+      stack: ["React", "Vite", "Tailwind CSS", "React Router", "Axios"],
+      link: "https://votestack-sa.netlify.app",
+      linkText: "View live site",
+    },
+    {
       name: "GiftLink",
       text: "A full-stack marketplace where people give away household items to people who want to reuse them. Includes registration and login, filterable search, item pages with comments, and a deployed microservices setup.",
       stack: ["React", "Node.js", "Express", "MongoDB", "JWT", "Docker", "Kubernetes", "GitHub Actions"],
-      link: "https://github.com/KaraboMphafudi", // TODO: change to the GiftLink repo link
+      link: "https://github.com/KaraboMphafudi",
       linkText: "View on GitHub",
     },
     {
